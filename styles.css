@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto" sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+.container {
+  width: 100%;
+  background-color: #1d2437;
+}
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #1d2437;
+  padding: 10px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+nav {
+  font-family: 'Roboto', sans-serif;
+}
+nav li {
+  display: inline-block;
+  margin-left: 3rem;
+  padding: 10px;
+}
+
+header h1 {
+  color: #fff;
+}
+main {
+  width: 100%;
+  background-color: #1d2437;
+  height: 32rem;
+}
+.content-main {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 15px;
+}
+.main-content h3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-content h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 3.0625rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.main-content h1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 3.3125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mobile {
+  color: #4c9f77;
+  font-family: Roboto;
+
+}
+.web {
+  color: #4c9f77;
+  font-family: Roboto;
+}
+.main-content .sessao-02 {
+  background-color: red;
+}
+.brtnArea {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 40px;
+}
+.linkedin {
+  border: 1px solid #5563d3;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.lk-colors:hover {
+  color: #fff;
+}
+.linkedin:hover {
+  background-color: #5563d3;
+}
+.lk-colors {
+  color: #5563d3;
+}
+.file-cv i { 
+  color: #fff;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right img {
+  width: 15rem;
+  height: 15rem;
+  background-color: #dedede;
+  border-radius: 50%;
+}
+
