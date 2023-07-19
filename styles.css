@@ -31,7 +31,7 @@ header {
   margin-right: 2rem;
 }
 nav {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 nav li {
   display: inline-block;
@@ -47,19 +47,16 @@ main {
   background-color: #1d2437;
   height: 32rem;
 }
-.content-main {
-  display: flex;
-  max-width: 1440px;
-  margin: 0 auto;
-}
 
 .main-content {
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  margin: 15px;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
 }
 .main-content h3 {
   color: #fff;
@@ -88,7 +85,6 @@ main {
 .mobile {
   color: #4c9f77;
   font-family: Roboto;
-
 }
 .web {
   color: #4c9f77;
@@ -121,7 +117,7 @@ main {
 .lk-colors {
   color: #5563d3;
 }
-.file-cv i { 
+.file-cv i {
   color: #fff;
 }
 .right {
@@ -136,3 +132,12 @@ main {
   border-radius: 50%;
 }
 
+.article-container {
+  width: 100vw;
+  background-color: red;
+}
+.article-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: green;
+}
